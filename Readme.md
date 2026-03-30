@@ -23,8 +23,11 @@ Outcome: An automated 30-trial study converged on an optimal configuration for X
 ## Model Interpretability (SHAP)
 I implemented shapley addictive explanations(SHAP) to decompose the model output to show the features that were the highest drivers of customer churn:
 *Global Importance: The model udentified Total_transactions_ct, Total_revolving_balance, T0tal_relationship_count as primary drivers
-*Local Explainability: Waterfall plot will provide a particular customer reasons for churning thus allowing for a personalized retention offers
+
 ![Shap Global Summary](images/shap.png)
+
+*Local Explainability: Waterfall plot will provide a particular customer reasons for churning thus allowing for a personalized retention offers
+
 ![Waterfall Local Explainability](images/waterfallPlot.png)
 
 ## Installation and Usage:

@@ -10,7 +10,7 @@ Solution: A robust tree based machine learning framework that identifies custome
 ## Technical Implemenations 
 ### Explanatory Data Discovery(EDA)
 Comprehensive analysis was conducted to to validate churn indicators in the eda.ipynb.
-###key findings:
+key findings:
 
 Product synergy: Customers were likely to churn if their frequency at the bank was less than 60 and transaction sizes being less than $75. The customers with 1 transactions counts(bank products) od lower revolving balance of less than $504 had a 100% churning rate.
 

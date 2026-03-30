@@ -20,16 +20,19 @@ Product synergy: Customers were likely to churn if their frequency at the bank w
 
 ## Algorithymic Optimization 
 To ensure peak performance on the imbalanced data, I utilized smote to creaate synthectic churners thus making the model not only to learn on majority classes(Existing customers) but also churning ones and then used tree-structured parzen estimator via optuna for parameter tuning:
-Objective: Maximize fi-score to balance precision and recall.
-Outcome: An automated 30-trial study converged on an optimal configuration for XGboost thus significantlly increasing its performance by utilizing optimized parameters. 
+
+**Objective:** Maximize fi-score to balance precision and recall.
+
+**Outcome:** An automated 30-trial study converged on an optimal configuration for XGboost thus significantlly increasing its performance by utilizing optimized parameters. 
 
 ## Model Interpretability (SHAP)
 I implemented shapley addictive explanations(SHAP) to decompose the model output to show the features that were the highest drivers of customer churn:
-*Global Importance: The model udentified Total_transactions_ct, Total_revolving_balance, T0tal_relationship_count as primary drivers
+
+**Global Importance:** The model udentified Total_transactions_ct, Total_revolving_balance, T0tal_relationship_count as primary drivers
 
 ![Shap Global Summary](images/shap.png)
 
-*Local Explainability: Waterfall plot will provide a particular customer reasons for churning thus allowing for a personalized retention offers
+**Local Explainability:** Waterfall plot will provide a particular customer reasons for churning thus allowing for a personalized retention offers
 
 ![Waterfall Local Explainability](images/waterfallPlot.png)
 

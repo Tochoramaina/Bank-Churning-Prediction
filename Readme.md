@@ -3,7 +3,7 @@
 This repository details an end-to-end analytical pipeline designed to  explain customer churn within retail banking environment. This project will priotize model transparency and actionable insights by integrating hyperparameter tuning with tools like optuna and shapley addictive explanations (SHAP) for feature attribution.
 
 ## Business Problem and Solution
-Problem: High customer turnover in the banking sector significantly increases customer acqusition  costs and erodes a frim long-term profitablity.
+Problem: High customer turnover in the banking sector significantly increases customer acqusition  costs and erodes a firm long-term profitablity.
 
 Solution: A robust tree based machine learning framework that identifies customers likely to leave and provides a localized explanations on why each customer is likely to leave.
 

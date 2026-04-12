@@ -1,6 +1,6 @@
 # Strategic Bank Attrition Analysis & Interpretability
 ## Executive Summary
-This repository details an end-to-end analytical pipeline designed to  explain customer churn within retail banking environment. This project will priotize model transparency and actionable insights bt integrating hyperparameter tuning with tools like optuna and shapley addictive explanations (SHAP) for feature attribution.
+This repository details an end-to-end analytical pipeline designed to  explain customer churn within retail banking environment. This project will priotize model transparency and actionable insights by integrating hyperparameter tuning with tools like optuna and shapley addictive explanations (SHAP) for feature attribution.
 
 ## Business Problem and Solution
 Problem: High customer turnover in the banking sector significantly increases customer acqusition  costs and erodes a frim long-term profitablity.

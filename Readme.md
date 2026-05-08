@@ -7,7 +7,7 @@ Problem: High customer turnover in the banking sector significantly increases cu
 
 Solution: A robust tree based machine learning framework that identifies customers likely to leave and provides a localized explanations on why each customer is likely to leave.
 
-### Technical Implemenations 
+### Technical Implementations 
 #### Explanatory Data Discovery(EDA)
 Comprehensive analysis was conducted to to validate churn indicators in the eda.ipynb.
 key findings:
@@ -18,7 +18,7 @@ Product synergy: Customers were likely to churn if their frequency at the bank w
 ![Engaement with the bank](images/Engagement.png)
 
 
-### Algorithymic Optimization 
+### Algorithmic Optimization 
 To ensure peak performance on the imbalanced data, I utilized smote to creaate synthectic churners thus making the model not only to learn on majority classes(Existing customers) but also churning ones and then used tree-structured parzen estimator via optuna for parameter tuning:
 
 **Objective:** Maximize fi-score to balance precision and recall.
